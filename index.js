@@ -12,5 +12,14 @@ x = 123;
 console.log(x);
 
 //Data types
+//NUmbers
 let age=25;
-console.log(age);
+let price=10.99;
+let gpa=3.7;
+
+console.log(`You are  ${age} years old`);
+console.log(`The price of sugar is ${price}`);
+console.log(`My university grade is ${gpa}`);
+
+//Numbers
+
