@@ -6,17 +6,18 @@ console.log("Hello")
 //document.getElementById("my-para").textContent="Welcome to Gemini - your most desired AI platform"
 
 //VARIABLES
-let x;
-x = 123;
+//let x;
+//x = 123;
 
-console.log(x);
+//console.log(x);
 
 //Data types
 //NUmbers
-let age=25;
-let price=10.99;
-let gpa=3.7;
+//let age=25;
+//let price=10.99;
+//let gpa=3.7;
 
+/*
 console.log(`You are  ${age} years old`);
 console.log(`The price of sugar is ${price}`);
 console.log(`My university grade is ${gpa}`);
@@ -27,4 +28,15 @@ let lastName="Awuor";
 
 console.log(typeof firstName);
 console.log(`My fullname is ${firstName} ${lastName}`)
+
+//Boolean
+
+let online= true;
+
+console.log(`Is Rochelle online:${online}`);
+*/
+
+let fullname = "Rochelle Awuor";
+let age = 24;
+let isStudent = true;
 
