@@ -21,5 +21,10 @@ console.log(`You are  ${age} years old`);
 console.log(`The price of sugar is ${price}`);
 console.log(`My university grade is ${gpa}`);
 
-//Numbers
+//Strings
+let firstName="Rochelle";
+let lastName="Awuor";
+
+console.log(typeof firstName);
+console.log(`My fullname is ${firstName} ${lastName}`)
 
