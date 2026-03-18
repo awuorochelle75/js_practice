@@ -62,11 +62,19 @@ let students = 30;
 
 
 //Exponential
-students = students **2;
+//students = students **2;
 
 //Modulus - this is the value that remains after division(remainder)
 
-students = students % 3
+//students = students % 3
+
+//Augmented assignment operators
+students += 1;
+students -=1;
+students *= 1;
+students **=1;
+students /=1;
+students %=1;
 
 
 
