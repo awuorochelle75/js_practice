@@ -69,12 +69,18 @@ let students = 30;
 //students = students % 3
 
 //Augmented assignment operators
+/*
 students += 1;
 students -=1;
 students *= 1;
 students **=1;
 students /=1;
 students %=1;
+*/
+
+//Increment & Decrement
+students ++;
+students --;
 
 
 
