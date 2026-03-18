@@ -79,10 +79,17 @@ students %=1;
 */
 
 //Increment & Decrement
-students ++;
-students --;
+//students ++;
+//students --;
 
-
-
-console.log(students);
+//Operator precedence
+//1.parenthesis
+//2.Exponential
+//3.Division % modulus
+//4.Multiplication
+//5.Addition
+//6.Subtraction
+ 
+let result = 1 + 2 * 3 + 4 **2;
+console.log(result);
 
