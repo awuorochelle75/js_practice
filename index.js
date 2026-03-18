@@ -104,12 +104,20 @@ students %=1;
 
 //Using the html textbox
 
-let username;
+//let username;
 
-document.getElementById("mySubmit").onclick = function (){
-    username = document.getElementById("myText").value;
-    console.log(username);
-}
+//document.getElementById("mySubmit").onclick = function (){
+   // username = document.getElementById("myText").value;
+   // console.log(username);
+//}
+
+//Typeof conversion - this is changing the data type of a value to another.(strings,numbers,booleans)
+
+let age = window.prompt("How old are you?");
+age = Number(age);
+age+=1;
+
+console.log(age);
 
 
 
