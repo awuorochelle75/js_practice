@@ -90,6 +90,16 @@ students %=1;
 //5.Addition
 //6.Subtraction
  
-let result = 1 + 2 * 3 + 4 **2;
-console.log(result);
+//let result = 1 + 2 * 3 + 4 **2;
+//console.log(result);
+
+//HOW TO ACCEPT USER INPUT
+
+let username;
+
+username = window.prompt("Whats your name")
+
+console.log(username);
+
+
 
