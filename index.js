@@ -52,7 +52,14 @@ let students = 30;
 // = students + 1;
 
 //Subtraction
-students = students - 1;
+//students = students - 1;
+
+//Multiplication
+//students = students * 2;
+
+//Division
+//students = students / 2;
+
 
 
 console.log(students);
