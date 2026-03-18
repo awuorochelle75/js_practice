@@ -94,12 +94,22 @@ students %=1;
 //console.log(result);
 
 //HOW TO ACCEPT USER INPUT
+//Using the window prompt
+
+//let username;
+
+//username = window.prompt("Whats your name")
+
+//console.log(username);
+
+//Using the html textbox
 
 let username;
 
-username = window.prompt("Whats your name")
-
-console.log(username);
+document.getElementById("mySubmit").onclick = function (){
+    username = document.getElementById("myText").value;
+    console.log(username);
+}
 
 
 
