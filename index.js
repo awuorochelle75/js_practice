@@ -61,6 +61,14 @@ let students = 30;
 //students = students / 2;
 
 
+//Exponential
+students = students **2;
+
+//Modulus - this is the value that remains after division(remainder)
+
+students = students % 3
+
+
 
 console.log(students);
 
