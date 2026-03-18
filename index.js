@@ -48,5 +48,12 @@ console.log(`Is Rochelle online:${online}`);
 
 let students = 30;
 
+//Addition
+// = students + 1;
+
+//Subtraction
+students = students - 1;
+
+
 console.log(students);
 
