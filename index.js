@@ -36,11 +36,17 @@ let online= true;
 console.log(`Is Rochelle online:${online}`);
 */
 
-let fullName = "Rochelle Awuor";
-let age = 24;
-let isStudent = true;
+//let fullName = "Rochelle Awuor";
+//let age = 24;
+//let isStudent = true;
 
-document.getElementById("p1").textContent = fullName;
-document.getElementById("p2").textContent = age;
-document.getElementById("p3").textContent = isStudent;
+//document.getElementById("p1").textContent = fullName;
+//document.getElementById("p2").textContent = age;
+//document.getElementById("p3").textContent = isStudent;
+
+//ARITHMETIC OPERATORS
+
+let students = 30;
+
+console.log(students);
 
