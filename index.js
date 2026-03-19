@@ -147,6 +147,13 @@ const increaseBtn =document.getElementById("increaseBtn");
 const counterLabel = document.getElementById("counterLabel");
 let count = 0;
  
+increaseBtn.onclick = function () {
+   count ++;
+   counterLabel.textContent = count;
+}
+
+ 
+
 
 
 
