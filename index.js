@@ -141,6 +141,7 @@ document.getElementById("mySubmit").onclick = function(){
 
 //COUNTER PROGRAM
 
+/*
 const decreaseBtn = document.getElementById("decreaseBtn");
 const resetBtn = document.getElementById("resetBtn");
 const increaseBtn =document.getElementById("increaseBtn");
@@ -161,6 +162,19 @@ resetBtn.onclick = function () {
    count = 0;
    counterLabel.textContent = count;
 }
+
+
+*/
+
+//Math - built in objects that provides a collection of properties and methods
+
+let x = 3.99;
+let y = 2;
+let z;
+
+z = Math.round(x);
+
+console.log(z);
 
  
 
