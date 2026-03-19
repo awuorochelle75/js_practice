@@ -1,0 +1,27 @@
+#counterLabel {
+    display:block;
+    font-size:4.5em;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#buttonsContainer {
+    display:block;
+    text-align:center;
+    padding:10px;
+   
+}
+
+.buttons {
+    padding:8px;
+    background-color: goldenrod;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px gray;
+}
+
+.buttons:hover {
+    background-color: gold;
+}
+
