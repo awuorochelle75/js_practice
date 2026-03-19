@@ -168,9 +168,9 @@ resetBtn.onclick = function () {
 
 //Math - built in objects that provides a collection of properties and methods
 
-let x = 45;
+let x = 3;
 let y = 2;
-let z;
+let z = 1;
 
 //z = Math.round(x);
 //z = Math.floor(x);
@@ -186,10 +186,12 @@ let z;
 //z = Math.tan(x)
 
 //z = Math.abs(x)
-z = Math.sign(x)
+//z = Math.sign(x)
+
+let max = Math.max(x,y,z)
 
 
-console.log(z);
+console.log(max);
 
  
 
