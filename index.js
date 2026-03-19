@@ -123,6 +123,7 @@ console.log(age);
 
 //CONSTANT -these are variables that cant be changed after you assigned them.
 
+/*
 const PI =3.142;
 let radius;
 let circumference;
@@ -136,7 +137,15 @@ document.getElementById("mySubmit").onclick = function(){
    console.log(circumference,typeof circumference);
   
 }
+*/
 
+//COUNTER PROGRAM
+
+const decreaseBtn = document.getElementById("decreaseBtn");
+const resetBtn = document.getElementById("resetBtn");
+const increaseBtn =document.getElementById("increaseBtn");
+const counterLabel = document.getElementById("counterLabel");
+let count = 0;
  
 
 
