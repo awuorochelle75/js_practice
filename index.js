@@ -183,7 +183,9 @@ let z;
 //Trigonometry functions
 //z = Math.sin(x)
 //z = Math.cos(x)
-z = Math.tan(x)
+//z = Math.tan(x)
+
+z = Math.abs(x)
 
 
 console.log(z);
