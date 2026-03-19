@@ -168,7 +168,7 @@ resetBtn.onclick = function () {
 
 //Math - built in objects that provides a collection of properties and methods
 
-let x = 30;
+let x = 45;
 let y = 2;
 let z;
 
@@ -178,7 +178,10 @@ let z;
 //z = Math.trunc(x);
 //z = Math.pow(x, y);
 //z = Math.sqrt(x);
-z = Math.log(x)
+//z = Math.log(x);
+
+//Trigonometry functions
+z = Math.sin(x)
 
 
 console.log(z);
