@@ -181,7 +181,8 @@ let z;
 //z = Math.log(x);
 
 //Trigonometry functions
-z = Math.sin(x)
+//z = Math.sin(x)
+z = Math.cos(x)
 
 
 console.log(z);
