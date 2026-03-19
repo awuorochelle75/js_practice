@@ -113,11 +113,33 @@ students %=1;
 
 //Typeof conversion - this is changing the data type of a value to another.(strings,numbers,booleans)
 
+/*
 let age = window.prompt("How old are you?");
 age = Number(age);
 age+=1;
 
 console.log(age);
+*/
+
+//CONSTANT -these are variables that cant be changed after you assigned them.
+
+const PI =3.142;
+let radius;
+let circumference;
+
+document.getElementById("mySubmit").onclick = function(){
+   radius = document.getElementById("myText").value;
+   radius = Number(radius);
+   console.log(radius,typeof radius);
+   circumference= 2 * PI * radius ;
+   document.getElementById("myH3").textContent = circumference + "cm";
+   console.log(circumference,typeof circumference);
+  
+}
+
+ 
+
+
 
 
 
