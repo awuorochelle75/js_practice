@@ -152,6 +152,12 @@ increaseBtn.onclick = function () {
    counterLabel.textContent = count;
 }
 
+decreaseBtn.onclick = function () {
+   count--;
+   counterLabel.textContent = count;
+}
+
+
  
 
 
